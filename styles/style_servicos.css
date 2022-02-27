@@ -1,0 +1,254 @@
+/* presets da página */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rye', Courier, monospace;
+}
+
+/* Formatação do corpo da página */
+body {
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(../img/background4.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+
+/* formatação cabeçalho header */
+header {
+    width: 100%;
+    height: 70px;
+
+    box-shadow: 0px 5px 20px rgb(49, 25, 156);
+    
+    padding: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+/* formatação da ul listas menu */
+.menu {
+    list-style: none;
+
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.menu li a {
+    color: #fff;
+
+    display: block;
+    
+    text-decoration: none;
+
+    font-size: 0.8rem;
+
+    padding: 10px 20px 10px 20px;
+
+    margin-left: 10px;
+
+    border-radius: 10px;
+}
+
+/* formatação do menu lista, formatação do link a:hover (passando o mouse sob o link) */
+.menu li a:hover {
+    color: #fff;
+
+    display: block;
+
+    text-decoration: none;
+
+    margin-left: 10px;
+    
+    background-color: #032950;
+}
+
+
+/* formatação logo canto superior esquerdo */
+.logo {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 10px;
+
+    background-color: #CCC;
+
+    box-shadow: 0px 0px 20px rgb(49, 25, 156);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.logo a {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.img_logo {
+    width: 35px;
+    height: 45px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 20px rgb(49, 25, 156);
+
+}
+
+h1 {
+    
+    color: #fff;
+  
+    text-align: center;
+  
+    margin: 30px 0px 10px 0px;
+  
+    font-size: 3.0rem;
+  
+    text-shadow: 0px 0px 50px rgb(49, 25, 156);
+    
+  }
+
+
+.container {
+
+    max-width: 1200;
+
+    margin: 0 auto;
+
+    flex-wrap: wrap;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.doma {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+.treina {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.aula {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+} 
+
+ .doma img {
+    width: 550px;
+    height: 350px;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    margin: 20px 250px 20px 10px;
+
+    box-shadow: 0px 0px 50px rgb(49, 25, 156);
+}
+
+.treina img {
+    width: 550px;
+    height: 350px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 5px 20px rgb(49, 25, 156);
+
+    padding: 10px;
+
+    margin: 20px 10px 20px 150px;
+}
+
+.aula img {
+
+    width: 550px;
+    height: 350px;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    margin: 20px 450px 20px 10px;
+
+    box-shadow: 0px 0px 50px rgb(49, 25, 156);
+
+}
+
+
+.doma p {
+    color: #fff;
+    
+    font-size: 1.0rem;
+
+    text-align: right;
+
+    padding: 10px;
+
+    margin: 10px 10px 10px 180px;
+
+    text-shadow: 0px 0px 10px #000;
+}
+
+.treina p {
+    color: #fff;
+    
+    font-size: 1.0rem;
+
+    text-align: left;
+
+    padding: 10px;
+
+    margin: 10px 150px 10px 10px;
+
+    text-shadow: 0px 0px 10px #000;
+} 
+
+.aula p {
+
+    color: #fff;
+    
+    font-size: 1.0rem;
+
+    text-align: right;
+
+    padding: 10px;
+
+    margin: 10px 10px 10px 250px;
+
+    text-shadow: 0px 0px 10px #000;
+
+}

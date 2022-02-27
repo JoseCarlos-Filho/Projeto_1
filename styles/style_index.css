@@ -1,0 +1,143 @@
+/* presets da página */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rye', Courier, monospace;
+    
+} 
+
+/* Formatação do corpo da página */
+body {
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(../img/background4.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    /* background-image: url(https://i.pinimg.com/236x/d6/72/6d/d6726daee5c512babc1b6bf40c1290bd.jpg); */
+    /* background-image: linear-gradient(to bottom, rgba(135, 206, 250, 0), rgba(135, 206, 250, 1)); */
+}
+
+
+/* formatação cabeçalho header */
+header {
+    width: 100%;
+    height: 70px;
+
+
+    /* background-image: linear-gradient(to bottom, rgba(173, 216, 230, 0), rgba(173, 216, 230, 1) ); */
+
+    box-shadow: 0px 5px 20px rgb(49, 25, 156);
+    
+    padding: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+/* formatação da ul listas menu */
+.menu {
+    list-style: none;
+
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.menu li a {
+    color: #fff;
+
+    display: block;
+    
+    text-decoration: none;
+    
+    font-size: 0.8rem;
+
+    padding: 10px 20px 10px 20px;
+
+    margin-left: 10px;
+
+    border-radius: 10px;
+}
+
+/* formatação do menu lista, formatação do link a:hover (passando o mouse sob o link) */
+.menu li a:hover {
+    color: #fff;
+
+    display: block;
+    
+    text-decoration: none;
+
+    margin-left: 10px;
+    
+    background-color: #032950;
+}
+
+
+/* formatação logo canto superior esquerdo */
+.logo {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 10px;
+
+    background-color: #CCC;
+
+    box-shadow: 0px 0px 20px rgb(49, 25, 156);
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.img_logo {
+    width: 35px;
+    height: 45px;
+
+}
+
+h1 {
+    color: #fff;
+    
+    text-align: center;
+
+    font-size: 3.0rem;
+
+    text-shadow: 0px 0px 50px rgb(49, 25, 156);
+
+    margin: 20px 0px 20px 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    
+}
+
+.container div {
+    flex: 1 1 350px; /* usando três propriedades flex ao mesmo tempo:(1) flex-grow, (1)flex-shrink, (300px)flex-basis*/
+
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 50px rgb(49, 25, 156);
+}
