@@ -1,6 +1,9 @@
 /* Variaveis de cores root  */
 @import "./style_variaveis.css";
 
+/* Estilos de reuso */
+@import "./style_reuso.css";
+
 /* presets da página */
 *,
 ::after,
@@ -82,19 +85,63 @@ body {
   height: 72px;
   padding-block: 20px;
   overflow: hidden;
-  transition: 0.3s var(--color-grey);
+  transition: 0.3s var(--color-cubic);
   z-index: 1;
 }
 
 .header.active {
   height: 370px;
-  transition: 0.5s var(--color-grey);
+  transition: 0.5s var(--color-cubic);
 }
 
 .header > .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.menu-toggle-btn .icon {
+  font-size: 28px;
+}
+
+.navbar {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 100%;
+  background: var(--color-white);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s var(--color-cubic);
+}
+
+.header.active .navbar {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navbar-list {
+  padding-inline: 15px;
+  margin-bottom: 15px;
+}
+
+.navbar-link {
+  color: var(--color-onyx);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+  border-radius: var(--radius-6);
+}
+
+.navbar-link:is(:hover, :focus) {
+  background: var(--color-black);
+}
+
+.navbar-link.active {
+  color: var(--color-blue_ryb);
 }
 
 /* formatação cabeçalho header */

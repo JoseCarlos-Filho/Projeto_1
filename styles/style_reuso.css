@@ -1,0 +1,12 @@
+/* Estilos de Reuso */
+.container {
+  padding-inline: 15px;
+}
+
+.icon-box {
+  font-variation-settings: "wght" 300;
+}
+
+.icon-box .icon {
+  font-size: 22px;
+}

@@ -4,6 +4,8 @@
   --color-white: rgb(255, 255, 255);
   --color-shadow: 0px 0px 20px rgb(49, 25, 156);
   --color-onyx: hsl(207, 8%, 21%);
+  --color-black: hsla(0, 0%, 0%, 0.06);
+  --color-blue_ryb: hsl(220, 100%, 50%);
 
   /* transições */
   --color-cubic: cubic-bezier(0.45, 0.85, 0.5, 1);
